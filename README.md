@@ -14,7 +14,7 @@
 
 # Setup Store
 - creat store
-![alt text](image.png)
+![alt text](image-3.png)
 
 # provider
 - index.js
@@ -22,6 +22,9 @@
 
 # cartSlice
 
-![alt text](image-2.png)
+![alt text](image-4.png)
+
+# creat component
+![alt text](image-5.png)
 
 
