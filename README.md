@@ -1,6 +1,12 @@
 
 > Repo - https://github.com/john-smilga/redux-toolkit-tutorial/blob/main/final/README.md
 
+> For Icons - https://heroicons.com/ for SVG ICONS
+
+> TASK IN REDUX
+ 1. Creat three button increase , decress, and clear all button increase +1
+ - Ans - reduxcreat / Task
+
 # Install
 - npx create-react-app my-app
 - for latest npx create-react-app@latest my-app
@@ -23,6 +29,8 @@
 # cartSlice
 
 ![alt text](image-4.png)
+
+- for mutate state i will use reduser inside of card slice.
 
 # creat component
 ![alt text](image-5.png)

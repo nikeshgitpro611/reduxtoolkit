@@ -9,7 +9,20 @@ const initialState = {
 
 const cartSlice = createSlice({
     name: 'user',
-    initialState
+    initialState,
+    reducers: {
+        increase: (state, action) => {
+            console.log('STATE : ', action);
+            state.amount = action.payload + 1
+        },
+
+        clearall: (state) => {
+            state.amount = 0
+        }
+
+    }
 });
 
+
+export const { increase,clearall } = cartSlice.actions;
 export default cartSlice.reducer;
